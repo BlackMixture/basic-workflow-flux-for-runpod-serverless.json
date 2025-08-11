@@ -1,4 +1,4 @@
-FROM runpod/worker-comfyui:5.1.0-base
+FROM runpod/worker-comfyui:5.1.0
 
 # 1) Download the correct single-file Flux checkpoint (includes encoders)
 RUN comfy model download \
